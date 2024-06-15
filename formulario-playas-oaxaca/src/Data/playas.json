@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zicatela",
+    "ubicacion": "Puerto Escondido, Oaxaca",
+    "link": "https://www.youtube.com/watch?v=6HYBFRcCLTI&t=9s",
+    "img": "images/zicatela.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Corralero",
+    "ubicacion": "Pinotepa Nacional, Oaxaca",
+    "link": "https://www.youtube.com/watch?v=example2",
+    "img": "images/corralero.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Puerto Escondido",
+    "ubicacion": "Puerto Escondido, Oaxaca",
+    "link": "https://www.youtube.com/watch?v=NMBBw45BaW0",
+    "img": "images/puertoescondido.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Bahías de Huatulco",
+    "ubicacion": "Huatulco, Oaxaca",
+    "link": "https://www.youtube.com/watch?v=kka3svnQLwo",
+    "img": "images/bahiashuatulco.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Mazunte",
+    "ubicacion": "Oaxaca",
+    "link": "https://www.youtube.com/watch?v=FQ8l3RzktMM",
+    "img": "images/mazunte.jpg"
+  }
+]

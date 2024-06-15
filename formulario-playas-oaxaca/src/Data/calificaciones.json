@@ -1,0 +1,44 @@
+[
+  {
+    "nombrePlaya": "Zicatela",
+    "calificacion": 0,
+    "fechaVisita": "2024-06-03",
+    "comentarios": "",
+    "inscrito": false
+  },
+  {
+    "nombrePlaya": "Corralero",
+    "calificacion": "5",
+    "fechaVisita": "2024-06-01",
+    "comentarios": "Hola",
+    "inscrito": true
+  },
+  {
+    "nombrePlaya": "Bahías de Huatulco",
+    "calificacion": "10",
+    "fechaVisita": "2024-06-01",
+    "comentarios": "momo",
+    "inscrito": false
+  },
+  {
+    "nombrePlaya": "Mazunte",
+    "calificacion": "10",
+    "fechaVisita": "2024-05-15",
+    "comentarios": "Muy chida la playa",
+    "inscrito": false
+  },
+  {
+    "nombrePlaya": "Bahías de Huatulco",
+    "calificacion": "4",
+    "fechaVisita": "2024-05-10",
+    "comentarios": "",
+    "inscrito": false
+  },
+  {
+    "nombrePlaya": "Mazunte",
+    "calificacion": "4",
+    "fechaVisita": "2024-06-04",
+    "comentarios": "hola",
+    "inscrito": true
+  }
+]
