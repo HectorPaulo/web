@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    .login_form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        background-color:crimson;
+        color:seashell;
+        font-family: Fira Code, sans-serif;
+        text-align: center;
+    }
+    label{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    input {
+        margin-top: 10px;
+    }
+    button {
+        border-color: transparent transparent transparent;
+        height: 30px;
+        font-family: Fira Code, sans-serif;
+        background-color:orange;
+        color:black;
+        width: 100%;
+        margin-top: 10px;
+        padding: 2px;
+    }
+</style>
+<body>
+    <div class="login_form">
+        <h2>Formulario de logueo</h2>
+        <hr>
+        <form>
+            <label> Email </label>
+            <input name="email" type="email" placeholder="Escribe tu Email">
+            <br>
+            <label> Password </label>
+            <input name="password" ="password" placeholder="Escribe tu Password">
+            <br>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+    <br>
+    <h2>Tipos de input</h2>
+    <hr/>
+    <label>Numero</label>
+    <input type="number" min="1" max="100" value="50">
+    <br>
+    <label>Texto</label>
+    <input type="text" value="Hola pepus">
+    <br>
+    <label>Color</label>
+    <input type="color" value="tomato">
+    <br>
+    <label>Date</label>
+    <input type="date" value="tomato">
+    <label>Time</label>
+    <input type="time" value="12:00">
+    <input type="radio">
+    <br>
+    <hr>
+    <label>Week</label>
+    <input type="week">
+    <br>
+    <label>Files</label>
+    <input type="file">
+    <br>
+    <label>Checkbox</label>
+    <input type="checkbox">
+    <br>
+    <label>Hidden</label>
+    <input type="hidden">
+    <br>
+    <label>Radio</label>
+    <hr>
+    <label>Range</label>
+    <input type="range">
+    <hr>
+    <label>Search</label>
+    <input type="search">
+    <hr>
+    <label>Textarea</label>
+    <textarea rows="4" cols="50">Hola mundo, esto es un textarea</textarea>
+    <br>
+    <label>Selecciona tu pizza favorita</label>
+    <select>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="margherita">Margherita</option>
+        <option value="vegetariana">Vegetariana</option>
+        <option value="jamon y queso">Jamon y Queso</option>
+        <option value="hawaiana">Hawaiana</option>
+        <option value="cuatro quesos">Cuatro Quesos</option>
+        <option value="extra cheese">Extra Cheese</option>
+        <option value="no pizza">No pizza</option>
+    </select>
+
+
+
+
+
+</body>
+</html>

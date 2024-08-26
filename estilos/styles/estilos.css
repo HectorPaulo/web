@@ -1,0 +1,41 @@
+body {
+    background-image: url(../../assets/python.jpg);
+    
+}
+.titulo {
+    color:thistle;
+    text-align: center;
+    font-size: 60px;
+    font-family: Fira Code, sans-serif;
+    animation: cambioColor 10s infinite;
+}
+#box {
+    width: 600px;
+    background-color:chocolate;
+    margin: 0 auto;
+    font-family: Fira Code, sans-serif;
+    padding: 5%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.card {
+    background-color:white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 1rem;
+    margin: 0% auto;
+}
+
+.subtitle {
+    text-align: center;
+    color:darkseagreen;
+    animation: cambioColor 10s infinite;
+}
+
+@keyframes cambioColor {
+    0% { color: brown }
+    50% { color :chocolate }
+    100% { color:slateblue }
+    
+}

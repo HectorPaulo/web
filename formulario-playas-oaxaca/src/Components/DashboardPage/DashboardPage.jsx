@@ -38,7 +38,6 @@ const DashboardPage = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
   
-    // Imprimir los datos que se van a enviar al servidor
     console.log('Datos de la calificación a enviar:', {
       nombrePlaya: selectedBeach,
       calificacion: rating,

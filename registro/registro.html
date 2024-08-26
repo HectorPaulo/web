@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<style>
+    .login_form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        background-color:antiquewhite;
+        color:black;
+        font-family: Fira Code, sans-serif;
+        text-align: center;
+        border-color: green;
+    }
+    label{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    input {
+        margin-top: 10px;
+    }
+    button {
+        border-color: transparent transparent transparent;
+        height: 30px;
+        font-family: Fira Code, sans-serif;
+        background-color:greenyellow;
+        color:black;
+        width: 100%;
+        margin-top: 10px;
+        padding: 2px;
+    }
+</style>
+<body>
+    <div class="login_form">
+        <h2>REGISTRO</h2>
+        <hr>
+        <form>
+            <label> NOMBRE </label>
+            <input name="nombre" type="text" placeholder="Ej. Juan">
+            <br>
+            <label> APELLIDO </label>
+            <input name="apellido" type="text" placeholder="Ej. Perez">
+            <br>
+            <label> EDAD </label>
+            <input name="edad" type="number" placeholder="Ej. 20">
+            <br>
+            <label> FECHA NACIMIENTO </label>
+            <input name="dia-nacio" type="date" >
+            <br>
+            <label> E-MAIL </label>
+            <input name="email" type="email" placeholder="Ej. papu@example.com">
+            <br>
+            <label> CONTRASEÑA </label>
+            <input name="password" ="password" placeholder="Escribe tu contraseña">
+            <br>
+            <label>CARRERA</label>
+            <select>
+                <option value="ing">Ingeniería en Sistemas</option>
+                <option value="medicina">Ingeniería Mecatrónica</option>
+                <option value="contaduria">Contaduría</option>
+                <option value="arquitectura">Arquitectura</option>
+                <option value="psicologia">Derecho</option>
+            </select>
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+</body>
+</html>
