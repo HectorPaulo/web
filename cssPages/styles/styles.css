@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.fondo {
+    background-color: rgb(74, 112, 110);
+    padding: 10px;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+}
+h1{
+    text-align: center;
+    font-family: Monaspace Neon;
+}
+
+h2 {
+    text-align: center;
+    font-family: Fira Code;
+}
+
+p{
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    border-radius: 3cap;
+    padding: 2%;
+    color: white;
+    font-size: 20px;
+    font-family: Monaspace Argon, Fira Code, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.punteado {
+    background-color: brown;
+    border: dotted;
+}
+
+p.linea {
+    background-color: blueviolet;
+    border: dashed 4px;
+    font-size: 20px;
+}
+
+p.solido {
+    background-color: tomato;
+    border: solid 4px;
+}
+
+p.doble {
+    background-color: teal;
+    border: double 4px;
+}
+
+p.inset {
+    background-color: seagreen;
+    border: inset 4px;
+}
+
+p.outset {
+    background-color: maroon;
+    border: outset 4px;
+}
+
+p.mezclado {
+    background-color:sienna;
+    border-style: dotted dashed inset solid;
+}
+
+p.custom {
+    background-color: slateblue;
+    border-bottom: solid green;
+    border-top: solid tomato;
+    border-right: double yellowgreen;
+    border-left: double yellow;
+    border-width: 20px;
+    border-style: solid;
+}
+
+p.rounded {
+    background-color: coral;
+    padding: 20px;
+}
+
+.papu {
+    color: black;
+    background-color:aqua;
+    border-top: dotted;
+    border-bottom: solid;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px; */
+    border-radius:  0px 20px 0px 20px;
+    border-bottom-color: blue;
+    border-top-color: black;
+    font-size: 20px;
+    font-family: Monaspace Neon;
+}
+
+.papu2 {
+        color: black;
+        background-color:aqua;
+        border-bottom: solid;
+        border-radius:  0px 20px 0px 20px;
+        /* border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px; */
+        border-bottom-color: blue;
+        border-top-color: black;
+        font-size: 20px;
+        font-family: Monaspace Neon;
+
+}
