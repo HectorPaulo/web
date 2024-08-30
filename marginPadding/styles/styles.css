@@ -1,0 +1,87 @@
+.n {
+    border-top: dashed;
+    border-bottom: solid blueviolet 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.n h2 {
+    text-align: center;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 50%;
+    margin: auto;
+}
+
+.card h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card p {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.box {
+    background-color: antiquewhite;
+    padding: 15px 15px 10px 10px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.card_2 {
+    background-color: brown;
+    padding: 15px;
+    color: white;
+    padding: 15px 15px 15px 10px;
+    border-radius: 15px;
+}
+
+.card-color {
+    color: aliceblue;
+    background-color:teal;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+.custom  {
+    opacity: 0.8;
+}
+
+.custom5  {
+    opacity: 0.5;
+}
+
+.custom2  {
+    opacity: 0.2;
+}
+
+.card-color-rgba {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(140, 136, 216, 0.6);
+}
+
+.card-color-hexa {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background: #f4a816;
+}
+.card-image {
+    width: 100%;
+    margin-top: 10px;
+    height: 600px;
+    background-image: url(../assets/saint-jean-baptiste-de-la-salle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-image h1{
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Monaspace Neon', sans-serif;
+}
