@@ -1,0 +1,48 @@
+<!-- <h1>
+  Nombre: {{fullName}}
+</h1>
+<h1>
+  <button (click)="changeName()" class="btn btn-primary shadow">Cambiar nombre</button>
+</h1>
+<h1>
+  Edad: {{age}}
+</h1>
+<p>
+  {{heros}}
+</p>
+<div style="border: 2px solid blue; padding: 8px;">
+  <h4> {{pokemon.name}} </h4>
+  <br>
+  <h4>Tipo: </h4><strong> {{pokemon.type}} </strong>
+  <br>
+  <h4>Habilidades: {{pokemon.abilities}} </h4>
+  <h4>Puntos de salud: {{pokemon.hp}} </h4>
+</div> -->
+
+<!-- <h1 class="text-center mt-4">Lista de Productos</h1>
+<hr>
+<table class="table caption-top">
+  <caption>List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">Código</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Descripción</th>
+      <th scope="col">Imagen</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (producto of listaProductos; track $index) {
+      <tr>
+        <th scope="row">{{ producto.codigo }}</th>
+        <td>{{ producto.nombre }}</td>
+        <td>{{ producto.precio }}</td>
+        <td>{{ producto.descripcion }}</td>
+        <td><img width=50 [src]="producto.imagen" alt=""></td>
+      </tr>
+    }
+  </tbody>
+</table> -->
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>

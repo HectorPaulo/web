@@ -1,0 +1,17 @@
+<h3 class="mt-3 ms-3">Lista de Productos</h3>
+<hr>
+@for (producto of productos; track $index) {
+    <div class="card mt-3" style="width: 300;">
+        <img class="card-img-top" style="width:fit-content;" [src]="producto.imagen" alt="Title" />
+        <div class="card-body">
+            <h4 class="card-title">{{ producto.nombre }}</h4>
+            <p class="card-text">${{ producto.precio }}</p>
+            <span class="badge bg-primary">
+                ¡Disponible!
+            </span>
+            <br>
+            <br>
+            <button class="btn btn-success">Comprar</button>
+        </div>
+    </div>
+}
